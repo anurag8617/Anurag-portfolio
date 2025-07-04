@@ -1,0 +1,41 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://visme.co/blog/wp-content/uploads/2016/09/website12.jpg') no-repeat center center/cover; */
+  background-color: #0b0c10;
+  color: #66fcf1;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 1rem 1rem;
+  /* background-color: #00bcd4; */
+  border: 3px solid #66fcf1;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 2%;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #0097a7;
+}
